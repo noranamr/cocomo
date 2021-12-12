@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\cocomo\\cocomo.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\cocomo\\cocomo\\cocomo.csproj",
       "projectName": "cocomo",
-      "projectPath": "E:\\cocomo\\cocomo.csproj",
+      "projectPath": "C:\\Users\\DELL\\Source\\Repos\\cocomo\\cocomo\\cocomo.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\cocomo\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Source\\Repos\\cocomo\\cocomo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
