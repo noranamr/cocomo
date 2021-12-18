@@ -8,6 +8,7 @@ using System.Windows.Forms;
 
 namespace cocomo
 {
+    //this is a comment.
     public partial class Form3 : Form
     {
         public static int kcode;
