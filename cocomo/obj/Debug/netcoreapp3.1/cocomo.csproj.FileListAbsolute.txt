@@ -1,0 +1,34 @@
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.csprojAssemblyReference.cache
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.Form1.resources
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.Form2.resources
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.csproj.GenerateResource.cache
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.AssemblyInfoInputs.cache
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.AssemblyInfo.cs
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.csproj.CoreCompileInputs.cache
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.exe
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.deps.json
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.runtimeconfig.json
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.runtimeconfig.dev.json
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.dll
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.pdb
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.dll
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.pdb
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.genruntimeconfig.cache
+D:\Uni\Year 3\Semester 5\Software metrcis\Project\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.Form3.resources
+D:\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.exe
+D:\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.deps.json
+D:\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.runtimeconfig.json
+D:\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.runtimeconfig.dev.json
+D:\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.dll
+D:\cocomo\cocomo\bin\Debug\netcoreapp3.1\cocomo.pdb
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.csprojAssemblyReference.cache
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.Form1.resources
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.Form2.resources
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.Form3.resources
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.csproj.GenerateResource.cache
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.AssemblyInfoInputs.cache
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.AssemblyInfo.cs
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.csproj.CoreCompileInputs.cache
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.dll
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.pdb
+D:\cocomo\cocomo\obj\Debug\netcoreapp3.1\cocomo.genruntimeconfig.cache
