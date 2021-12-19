@@ -13,7 +13,12 @@ namespace cocomo
         public Form2()
         {
             InitializeComponent();
+        } 
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
+
         //product attributes 
         double ReqSWRelaibility = 1.0, SizeOfappDB = 1.0, ComplixtyOfProject = 1.0;
 
@@ -28,6 +33,14 @@ namespace cocomo
 
         double EAF;
         public static double actualEffort;
+
+        public int kcode;
+        public double effort;
+        public double TDEV;
+        public int newEffort;
+        public double[] organic = { 3.2, 1.05, 2.5, 0.38 };
+        public double[] semidetached = { 3.0, 1.12, 2.5, 0.35 };
+        public double[] embedded = { 2.8, 1.20, 2.5, 0.32 };
 
 
 
@@ -150,9 +163,45 @@ namespace cocomo
             }
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            string message = "Do you want to resume without choosing project type?";
+            string title = "specify project type";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                panel1.Visible = false;
 
+            }
+            else
+            {
+                panel1.Visible = true;
+            }
+
+            kcode = Convert.ToInt32(KLOC_txtbox.Text);
+            if (kcode >= 2 && kcode <= 50)
+            {
+                calculateEffort(organic[0], organic[1]);
+            }
+            else if (kcode > 50 && kcode <= 300)
+            {
+                calculateEffort(semidetached[0], semidetached[1]);
+
+            }
+            else if (kcode > 300)
+            {
+                calculateEffort(embedded[0], embedded[1]);
+            }
+            else
+            {
+                string message2 = "please enter a valid KLOC value.";
+                string title2 = "Invalid Input!";
+                MessageBox.Show(message2, title2);
+            }
+            newEffort = Convert.ToInt32(effort);
+
+            effort_i_textbox.Text = newEffort.ToString();
         }
 
         private void volatilityOfVirtualMachineEnv_comboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -194,6 +243,45 @@ namespace cocomo
             {
                 reqTurnabout = 1.15;
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string message = "Do you want to resume without choosing project type?";
+            string title = "specify project type";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            /*if (result == DialogResult.Yes)
+            {
+
+            }
+            else
+            {
+                panel1.Visible = true;
+            }
+            */
+            kcode = Convert.ToInt32(KLOC_txtbox.Text);
+            if (kcode >= 2 && kcode <= 50)
+            {
+                calculateTDEV(organic[2], organic[3]);
+            }
+            else if (kcode > 50 && kcode <= 300)
+            {
+                calculateTDEV(semidetached[2], semidetached[3]);
+
+            }
+            else if (kcode > 300)
+            {
+                calculateTDEV(embedded[2], embedded[3]);
+            }
+            //else
+            /*{
+                string message2 = "please enter a valid KLOC value.";
+                string title2 = "Invalid Input!";
+                MessageBox.Show(message2, title2);
+            }*/
+            int newTDEV = Convert.ToInt32(TDEV);
+            TDEV_txtbox.Text = TDEV.ToString();
         }
 
 
@@ -389,14 +477,25 @@ namespace cocomo
             }
         }
 
-        //Calculate the value
+        //Calculate Ei
+        public void calculateEffort(double a, double b)
+        {
+            effort = a * Math.Pow(kcode, b);
+        }
+        //Calculate TDEV
+        public void calculateTDEV(double c, double d)
+        {
+            TDEV = c * Math.Pow(Convert.ToInt32(actualEffort), d);
+        }
+
+        //Calculate Actual Effort
         private void calculateEAF_Click(object sender, EventArgs e)
         {
             EAF = ReqSWRelaibility * SizeOfappDB * ComplixtyOfProject * 
                 runtimePreformance *MemoryConstraints *volatilityOfVirtualMachineEnv * reqTurnabout * 
                 analystCapability * appExp *  SWengineerCapability * virtualMachineExp *  ProgrammingLangExp * 
                 applicationOfSWEmethods *  useOfSWtools * reqDevSchedule;
-            actualEffort = Form3.newEffort * EAF;
+            actualEffort = newEffort * EAF;
             int newactualEffort = Convert.ToInt32(actualEffort);
 
             label16.Text = newactualEffort.ToString();

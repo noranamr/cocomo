@@ -126,7 +126,7 @@ namespace cocomo
             }
              newEffort = Convert.ToInt32(effort);
 
-            label3.Text = newEffort.ToString();
+            //label3.Text = newEffort.ToString();
 
         }
 

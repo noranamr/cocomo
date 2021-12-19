@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RNcgTHeCAs19u0hn+feh5CQgJ/2PU7TVAlBSm+xsLBr17SUIEcWpK6r+1xF+exs1gS3d2v9777VxNNa5iWAK6Q==",
+  "dgSpecHash": "u2V5hLn/ih2shHtUYK7lrSs+qaKWYgOOCwTkFURy95LvqlbOrv1wti1OTwR85zIKOUaRBY7SPOscJs2fqT6q6g==",
   "success": true,
-  "projectFilePath": "D:\\cocomo\\cocomo\\cocomo.csproj",
+  "projectFilePath": "D:\\Uni\\Year 3\\Semester 5\\Software metrcis\\Project\\COCOMO\\cocomo\\cocomo.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\cocomo\\cocomo\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
